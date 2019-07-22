@@ -1,4 +1,7 @@
 # July 23 & 24 meeting agenda
+
+[https://tinyurl.com/IGagenda](https://tinyurl.com/IGagenda)
+
 1. Status of the Interest Group and Patterns Working Group
     - [Pattern and use case database](https://patterns.promsns.org/)
     - [Patterns content repository](https://github.com/RDAProvPatWG/Patterns)
