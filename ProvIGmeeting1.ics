@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Europe/London
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190722T015423Z
+DTSTART;TZID=Europe/London:20190723T130000
+DTEND;TZID=Europe/London:20190723T133000
+SUMMARY:Provenance IG Meeting
+UID:20190722T015423Z-142933263@fe80:0:0:0:cff:c0ff:fec3:bfae%eth0
+TZID:Europe/London
+DESCRIPTION:David Dubin is inviting you to a scheduled Zoom meeting.\n\nJ
+ oin Zoom Meeting\nhttps://illinois.zoom.us/j/142933263\n\nOne tap mobile
+ \n+19292056099\,\,142933263# US (New York)\n+16699006833\,\,142933263# U
+ S (San Jose)\n\nDial by your location\n        +1 929 205 6099 US (New Y
+ ork)\n        +1 669 900 6833 US (San Jose)\n        +1 647 558 0588 Can
+ ada\n        +49 30 3080 6188 Germany\n        +49 30 5679 5800 Germany\
+ n        +49 69 7104 9922 Germany\n        +82 2 6105 4111 South Korea\n
+         +82 2 6022 2322 South Korea\n        +44 203 051 2874 United Kin
+ gdom\n        +44 203 481 5237 United Kingdom\n        +44 203 966 3809 
+ United Kingdom\n        +44 131 460 1196 United Kingdom\n        +81 524
+  564 439 Japan\n        +81 3 4578 1488 Japan\n        +61 8 7150 1149 A
+ ustralia\n        +61 2 8015 6011 Australia\n        +52 554 161 4288 Me
+ xico\n        +52 229 910 0061 Mexico\nMeeting ID: 142 933 263\nFind you
+ r local number: https://zoom.us/u/a06kZSKlk\n\nJoin by SIP\n142933263@zo
+ omcrc.com\n\nJoin by H.323\n162.255.37.11 (US West)\n162.255.36.11 (US E
+ ast)\n221.122.88.195 (China)\n115.114.131.7 (India)\n213.19.144.110 (EME
+ A)\n103.122.166.55 (Australia)\n209.9.211.110 (Hong Kong)\n64.211.144.16
+ 0 (Brazil)\n69.174.57.160 (Canada)\n207.226.132.110 (Japan)\nMeeting ID:
+  142 933 263\n
+LOCATION:https://illinois.zoom.us/j/142933263
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
