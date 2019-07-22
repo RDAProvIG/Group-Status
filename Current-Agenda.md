@@ -1,6 +1,8 @@
 # July 23 & 24 meeting agenda
 1. Status of the Interest Group and Patterns Working Group
-2. Current text of IG case statement
+    - [Pattern and use case database](https://patterns.promsns.org/)
+    - [Patterns content repository](https://github.com/RDAProvPatWG/Patterns)
+2. [Current text of IG case statement](https://github.com/RDAProvIG/Group-Status/blob/master/CaseStatement.md)
 3. Future directions for the interest group
 4. Chair roles and case statement revision
 5. Upcoming conferences and meetings of interest
